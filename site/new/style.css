@@ -1,0 +1,249 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 30px 10px;
+
+}
+
+nav h1 {
+  color: #717171;
+  font-size: 30px;
+}
+
+nav .onglets {
+  margin-top: 3px;
+  margin-left: 200px;
+}
+
+nav .onglets a{
+  margin-left: 20px;
+}
+
+nav .onglets button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+}
+
+nav .onglets a:hover {
+  color: orange;
+  border-bottom: 1px solid orange;
+  animation: ease-in-out;
+  animation-duration: 1s;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: url("images/back.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 200px;
+}
+
+header h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+header h4 {
+  margin-top: -0px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+.main {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.main .content .carte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  
+}
+
+.main .content .carte .gauche {
+  flex: 0 0 20%;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.main .content .carte .droite img {
+  height: 300px;
+  width: 400px;
+  
+}
+
+.contact {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .contenu .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.contact .contenu .items .maps {
+  flex: 0 0 15%;
+  padding: 20px;
+}
+
+.contact .contenu .items .maps iframe {
+  width: 800px;
+  height: 400px;
+}
+
+.contact .contenu .items .formulaire {
+  height: 400px;
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+.contact .contenu .items .formulaire input {
+  outline: none;
+  height: 60px;
+  width: 500px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #717171;
+}
+
+.contact .contenu .items .formulaire textarea {
+  height: 90px;
+  width: 500px;
+}
+
+.contact .contenu .items .formulaire button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+}
+
+/*jsp
+.contact .contenu .items .formulaire button:hover{
+  background-color: #fff;
+  border: 1px solid orange;
+}*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/*css de menu*/
+
+.entete{
+  margin: 20px 10px;
+}
+.container div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.contain1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.contain1 .man {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.contain1 .man img {
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+}
+.contain1 .man p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.commande:hover {
+  background-color: rgb(255, 136, 0);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  padding: 100px;
+ /* margin: 70px; */
+}
+
+
+center div img {
+  width: 100%;
+  height: 300px;
+}
+
+.joli {
+  color: rgb(14, 14, 13);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*reserver*/
+
+.formul input, .formul textarea, .formul select{
+  display: block;
+  text-align: center;
+  width: 300px;
+  margin: 10px 0px;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+div #lead a :hover{
+  color: orange;
+  animation: ease-out;
+}
+
